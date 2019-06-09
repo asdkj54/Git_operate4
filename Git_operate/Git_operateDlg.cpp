@@ -64,6 +64,7 @@ BEGIN_MESSAGE_MAP(CGitoperateDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_BUTTON1, &CGitoperateDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -152,3 +153,12 @@ HCURSOR CGitoperateDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CGitoperateDlg::OnBnClickedButton1()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	//创建分支
+	//
+	//////////////////////////////////////////////////////////////////////////
+}
