@@ -150,5 +150,6 @@ void CGitoperateDlg::OnPaint()
 HCURSOR CGitoperateDlg::OnQueryDragIcon()
 {
 	return static_cast<HCURSOR>(m_hIcon);
+	int hjfj;
 }
 
